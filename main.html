@@ -8,42 +8,42 @@
 
 <body>
 	<form>
-		<div><label for="name">Name</label>
-		<input id="name" type="name" placeholder="name"></div>
+		<div><label for="name">Name*</label>
+		<input id="name" type="name" placeholder="Name" required></div>
 
-		<div><label for="email">Email</label>
-		<input id="email" type="email" placeholder="email"></div>
+		<div><label for="email">Email*</label>
+		<input id="email" type="email" placeholder="Email" required></div>
 
-		<div><label for="gender">Gender</label>
+		<div><label for="gender">Gender*</label>
 		 <label for="male">Male</label>
-		<input id="gender_m" type="radio" name="gender">
+		<input id="gender_m" type="radio" name="gender" required>
 
 		<label for="female">Female</label>
-		<input id="gender_f" type="radio" name="gender">
+		<input id="gender_f" type="radio" name="gender" required>
 
 		 <label for="other">Other</label>
-		<input id="gender_o" type="radio" name="gender">
+		<input id="gender_o" type="radio" name="gender" required>
 
 	</div>
 		<div>
-			<label>Choose your car</label>
-			<select name="cars" id="cars" placeholder="--Please choose an option--"> 
-				<option value="0">--Please choose an option--</option>
-				<option value="1">BMW</option>
-				<option value="2">Audi</option>
-				<option valiue="3">Mercedez</option>
+			<label>Choose your car*</label>
+			<select name="cars" id="cars" placeholder="--Please choose an option--" required> 
+				<option value="0" required>--Please choose an option--</option>
+				<option value="1" required>BMW</option>
+				<option value="2" required>Audi</option>
+				<option valiue="3" required>Mercedez</option>
 			</select>
 			
 
 		</div>
 		<div>
-			<labe for="age">Age</labe>
-			<input type="number" id="age" placeholder="age">
+			<labe for="age" >Age*</labe>
+			<input type="number" id="age" placeholder="Age" required>
 		</div>
 
 		<div>
-			<labe for="dob">DOB</labe>
-			<input type="date" id="dob" placeholder="DOB">
+			<labe for="dob">DOB*</labe>
+			<input type="date" id="dob" placeholder="DOB" required>
 		</div>
 
 		<div id="tel">
@@ -52,10 +52,10 @@
 		</div>
 
 		<div id="password">
-			<labe for="apssword">Password</labe>
-			<input type="password" id="age" placeholder="password">
+			<labe for="apssword">Password*</labe>
+			<input type="password" id="age" placeholder="Password" required>
 		</div>
-		<input type="checkbox">
+		<input type="checkbox" required>
 		<label>I agree to the TOS.</label>
 
 		<div></div><button type="submit" id="tos">Submit</button></div>
