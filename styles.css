@@ -20,8 +20,44 @@
 	width:200px;
 	border-color:black;
 }
-#cars{
-	margin-top:8px;
-	
+ #cars{
+	margin-top:10px;
+	height:20px;
+	border-color:black;
+}
+#age{
+	margin-top:10px;
+	height:20px;
+	text-size:10px;
+	width:200px;
+	border-color:black;
+}
+#dob{
+	margin-top:10px;
+	height:20px;
+	text-size:10px;
+	width:200px;
+	border-color:black;
+}
+#tel{
+	margin-top:10px;
+	height:20px;
+	text-size:10px;
+	width:150px;
+	border-color:black;
+}
+#password{
+	margin-top:10px;
+	height:20px;
+	text-size:10px;
+	width:180px;
+	border-color:black;
+}
+#tos{
+	margin-top:20px;
+	height:30px;
+	text-size:10px;
+	width:150px;
+	margin-left:60px;
 	border-color:black;
 }
